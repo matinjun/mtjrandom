@@ -20,7 +20,7 @@ namespace mtjrandom {
 		for(int i = 0; i < len; ++i) {
 			auto index = randint(i, len - 1);
                   std::swap(a[i], a[index]);
-                }
+		}
 	}
 };
 
