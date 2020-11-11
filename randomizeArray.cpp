@@ -16,10 +16,12 @@ namespace mtjrandom {
 
 namespace mtjrandom {
 	// randomize an array with len elements
-	void randmize_array(int * a, int len) {
-		for(int i = 0; i < len; ++i) {
+	void randmize_array(int *a, int len)
+	{
+		for (int i = 0; i < len; ++i)
+		{
 			auto index = randint(i, len - 1);
-                  std::swap(a[i], a[index]);
+			std::swap(a[i], a[index]);
 		}
 	}
 };
