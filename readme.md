@@ -1,6 +1,11 @@
-# 这个代码实现了打乱一个数组的算法
-* 在[randomizeArray.h](./randomizeArray.h)声明了相关函数，[randomizeArray.cpp](./randomizeArray.cpp)里描述了具体细节
-   * 注意在[randomizeArray.cpp](./randomizeArray.cpp)中使用
+# 随机方法
+## 包装函数
+在[random_method.hpp](./random_method.hpp)中:
+* randint(m, n)产生$[m, n]$内的均匀随机整数
+* randreal()产生随机实数$x: x \in [0, 1)$
+## 打乱一个数组的算法
+* 在[random_method.hpp](./random_method.hpp)声明了相关函数，[random_method.hpp](./random_method.hpp)里描述了具体细节
+   * 注意在[random_method.hpp](./random_method.hpp)中使用
    ```c++
    std::chrono::system_clock::now().time_since_epoch().count()
    ```

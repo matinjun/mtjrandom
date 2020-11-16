@@ -1,4 +1,4 @@
-#include "randomizeArray.h"
+#include "random_method.hpp"
 #include <iostream>
 
 using namespace std;
